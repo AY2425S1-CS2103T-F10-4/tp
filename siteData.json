@@ -3,10 +3,10 @@
   "pages": [
     {
       "src": "AboutUs.md",
-      "title": "About Us",
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
+        "ryan-lim": "Ryan Lim",
         "vince-goh": "Vince Goh",
         "jane-doe": "Jane Doe",
         "ling-zi-yan": "Ling Zi Yan",
