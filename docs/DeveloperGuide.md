@@ -300,40 +300,84 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
-
-**Use case: Delete a person**
+**System: TechConnect (TC)**
+<br/>
+**Use case: UC1 - Add a Company**
+<br/>
+**Actor: User**
 
 **MSS**
 
-1.  User requests to list persons
-2.  AddressBook shows a list of persons
-3.  User requests to delete a specific person in the list
-4.  AddressBook deletes the person
+1.  User enters the detail of a company into the system
+2.  TC add the company to the contact list, and shows a success message to the user.
 
     Use case ends.
 
 **Extensions**
 
-* 2a. The list is empty.
+* 1a. The input format is not correct.
 
-  Use case ends.
+    * 1a1. TC shows an error message.
+  
+    Use case resumes at step 1.
 
-* 3a. The given index is invalid.
+* 3a. The given company already exists in the contact list.
 
-    * 3a1. AddressBook shows an error message.
+    * 3a1. TC will not add the company to the contact list.
 
-      Use case resumes at step 2.
+    Use case ends.
 
-*{More to be added}*
+<br/>
+
+**System: TechConnect (TC)**
+<br/>
+**Use case: UC2 - Remove a Company**
+<br/>
+**Actor: User**
+
+**MSS**
+
+1.  User choose a company to remove from the contact list.
+2.  TC removes the company from the contact list, and shows a success message to the user.
+
+    Use case ends.
+
+**Extensions**
+
+* 1a. The input format is not correct.
+
+    * 1a1. TC shows an error message.
+
+    Use case resumes at step 1.
+
+<br/>
+
+**System: TechConnect (TC)**
+<br/>
+**Use case: UC3 - Show all Company**
+<br/>
+**Actor: User**
+
+**MSS**
+
+1.  User requests to see all companies in the contact list.
+2.  TC shows all companies in the contact list.
+
+    Use case ends.
+
 
 ### Non-Functional Requirements
 
 1.  Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
-2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
+2.  File storing user's data should be small and not exceed 10MB per 1000 companies and 10,000 tags
 3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+4.  The app should have a simple and intuitive user interface.
+5. Data retrieval and saving should be reliable to prevent data loss
+6. The code should be modular and easily maintainable, following Java coding standards.
+7. The app should not require internet access, ensuring that the user's data remain private within their local system.
+8. The app should efficiently handle up to 1000 companies and 10,000 tags without a noticeable performance degradation.
+9. The application should be well-tested, with automated tests to ensure reliability and maintainability
 
-*{More to be added}*
 
 ### Glossary
 
