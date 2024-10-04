@@ -70,3 +70,7 @@ shadowJar {
 }
 
 defaultTasks 'clean', 'test'
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
