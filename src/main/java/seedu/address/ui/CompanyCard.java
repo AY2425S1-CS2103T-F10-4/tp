@@ -9,6 +9,7 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Region;
 import seedu.address.model.company.Company;
 
+
 /**
  * An UI component that displays information of a {@code Company}.
  */
@@ -39,6 +40,8 @@ public class CompanyCard extends UiPart<Region> {
     @FXML
     private Label address;
     @FXML
+    private Label careerPageUrl;
+    @FXML
     private Label email;
     @FXML
     private FlowPane tags;
@@ -54,9 +57,10 @@ public class CompanyCard extends UiPart<Region> {
         name.setText(company.getName().fullName);
         phone.setText(company.getPhone().value);
         address.setText(company.getAddress().value);
+        careerPageUrl.setText(company.getCareerPageUrl().value);
         email.setText(company.getEmail().value);
         company.getTags().stream()
-                .sorted(Comparator.comparing(tag -> tag.tagName))
-                .forEach(tag -> tags.getChildren().add(new Label(tag.tagName)));
+                .sorted(Comparator.comparing(tag -> tag.toString()))
+                .forEach(tag -> tags.getChildren().add(new Label(tag.toString())));
     }
 }
