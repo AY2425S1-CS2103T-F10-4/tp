@@ -33,7 +33,7 @@ public class AddCommand extends Command {
             + "[" + PREFIX_TAG + "TAG]...\n"
             + "Example: " + COMMAND_WORD + " "
             + PREFIX_NAME + "Google "
-            + PREFIX_PHONE + "650-253-0000 "
+            + PREFIX_PHONE + "6502530000 "
             + PREFIX_EMAIL + "google@gmail.com "
             + PREFIX_ADDRESS + "1600 Amphitheatre Parkway, Mountain View, CA 94043 "
             + PREFIX_CAREER_PAGE_URL + "www.google-careers.com "
