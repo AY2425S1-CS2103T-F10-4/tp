@@ -107,7 +107,7 @@
       "src": "UserGuide.md",
       "title": "User Guide",
       "headings": {
-        "ab-3-user-guide": "AB-3 User Guide",
+        "techconnect-user-guide": "TechConnect User Guide",
         "table-of-contents": "Table of Contents",
         "quick-start": "Quick start",
         "features": "Features",
@@ -115,6 +115,9 @@
         "adding-a-company-add": "Adding a company: add",
         "special-tag-values-for-the-add-command": "Special Tag Values for the add Command",
         "listing-all-companies-list": "Listing all companies : list",
+        "bookmarking-a-company-bookmark": "Bookmarking a company: bookmark",
+        "removing-a-bookmark-from-a-bookmarked-company-removebm": "Removing a bookmark from a bookmarked company: removebm",
+        "listing-all-bookmarked-companies-bmlist": "Listing all bookmarked companies: bmlist",
         "editing-a-company-edit": "Editing a company : edit",
         "locating-companies-by-name-find": "Locating companies by name: find",
         "deleting-a-company-delete": "Deleting a company : delete",
