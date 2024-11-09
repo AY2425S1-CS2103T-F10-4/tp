@@ -51,7 +51,7 @@
         "storage-component": "Storage Component",
         "common-classes": "Common Classes",
         "implementation": "Implementation",
-        "bookmark-feature": "Bookmark feature",
+        "tagbuilder-class": "TagBuilder Class",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product Scope",
@@ -104,8 +104,8 @@
     },
     {
       "src": "UserGuide.md",
-      "title": "User Guide",
       "headings": {
+        "layout-default-md-title-and-quot-user-guide-and-quot-pagenav-3": "layout: default.md\ntitle: &quot;User Guide&quot;\npageNav: 3",
         "techconnect-user-guide": "TechConnect User Guide",
         "table-of-contents": "Table of Contents",
         "glossary": "Glossary",
