@@ -62,7 +62,13 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for Manual Testing",
         "launch-and-shutdown": "Launch and Shutdown",
         "adding-and-deleting-companies": "Adding and Deleting Companies",
-        "bookmarking-and-finding-companies": "Bookmarking and Finding Companies"
+        "bookmarking-and-finding-companies": "Bookmarking and Finding Companies",
+        "appendix-effort": "Appendix: Effort",
+        "difficulty-level": "Difficulty Level",
+        "challenges-faced": "Challenges Faced",
+        "effort-required": "Effort Required",
+        "achievements": "Achievements",
+        "reuse-and-effort-savings": "Reuse and Effort Savings"
       },
       "headingKeywords": {}
     },
@@ -104,8 +110,8 @@
     },
     {
       "src": "UserGuide.md",
+      "title": "User Guide",
       "headings": {
-        "layout-default-md-title-and-quot-user-guide-and-quot-pagenav-3": "layout: default.md\ntitle: &quot;User Guide&quot;\npageNav: 3",
         "techconnect-user-guide": "TechConnect User Guide",
         "table-of-contents": "Table of Contents",
         "glossary": "Glossary",
